@@ -64,6 +64,9 @@ Support floating point operations in CGRA, ILP formulation and heuristic based m
      - Find linear transformation vector(α) such that each data element in given pattern is assigned with a distinctive number(memory bank number)after the transformation.
 3. Efficient Memory Partitioning for Parallel Data Access via data reuse [FPGA'16]
 
+## Reconfigurable Architectures
+
+1. Xputer (1991), PADDI (1992), PADDI-2 (1993), rDPA/KressArray (1995), Colt (1996),  MATRIX (1996), RaPID (1996), Garp (1997), RAW (1997),PipeRench (1998), REMARC (1998), CHESS (1999), Pleiades (2000), Chameleon/Montium (2000), DReaM (2000), MorphoSys (2000), Chimaera (2000), SmartMemories (2000), Imagine (2002), ADRES (2003), DART (2003),ACT XPP (2003), WaveScalar (2003), TRIPS (2004), Kim(2004), STA (2004), Galanis(2005), Astra (2006),CRC (2007), TCPA (2009),PPA (2009),CGRA express (2009),EGRA (2011),DySER (2012),FPCA (2014),[HARTMP (2016)](http://delivery.acm.org/10.1145/2980000/2972181/p1598-souza.pdf?ip=137.132.65.142&id=2972181&acc=ACTIVE%20SERVICE&key=FF6731C4D3E3CFFF%2EBB5EB8D2067C1662%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1535902924_3ee2ea83d2745a4657db287dcf3e5c74)
 ## Notes
 
 1. The problem of mapping an application onto a CGRA to minimize the number of resources giving best performance has been shown to be NP-complete - C. O. Shields, Jr., “Area efficient layouts of binary trees in grids,” Ph.D.dissertation, Dept. Comput. Sci., Univ. Texas, Dallas, 2001.
