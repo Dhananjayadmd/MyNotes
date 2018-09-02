@@ -56,7 +56,7 @@
 ### Heuristic based
 
 ### Boolean satisfiability based
-1.[SAT-based compilation to a non-vonNeumann processor](http://delivery.acm.org/10.1145/3200000/3199790/p675-chaudhuri.pdf?ip=137.132.65.142&id=3199790&acc=ACTIVE%20SERVICE&key=FF6731C4D3E3CFFF%2EBB5EB8D2067C1662%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1535900877_1ef0d715ffaa37fa675b75188e8336af)[ICCAD 2017]
+1.[SAT-based compilation to a non-vonNeumann processor](https://dl.acm.org/citation.cfm?id=3199790)[ICCAD 2017]
 
 ## CGRA memory mapping related papers
 
