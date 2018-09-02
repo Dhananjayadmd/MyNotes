@@ -8,6 +8,7 @@
 2. Mapping Multi-Domain Applications onto Coarse-Grained Reconfigurable Architectures[IEEE Trans. on CAD (2011)]
     - Support floating point operations in CGRA, 
     - ILP problem formulation and heuristic based mapping method
+    - [local link](file:///D:/research/Papers/lee2011.pdf)
 3. [SPKM : A Novel Graph Drawing based Algorithm for Application Mapping onto Coarse-Grained Reconfigurable Architectures.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.127.7463&rep=rep1&type=pdf)[DAC 2008]
     - graph mapping based approach
     - formulate  the  application  mapping  problem  onto  CGRA considering the routing PEs, the shared resource constraints and complex PE interconnection
