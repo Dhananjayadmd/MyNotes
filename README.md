@@ -29,7 +29,7 @@
 1.  [Modulo Graph Embedding: Mapping Applications onto Coarse-Grained Reconfigurable Architectures](http://cccp.eecs.umich.edu/papers/parkhc-cases06.pdf) [IEEE/ACM CASES 2006]
     - introduces a software pipelining technique for mapping loop bodies onto CGRAs, referred to as modulo graph embedding
 .   - Benchmarks : blowfish, channel, dct, fft, fir, fsed, sharp, sobel, viterbi
-2. [ Graph Minor Approach for Application Mapping on CGRAs] (https://www.comp.nus.edu.sg/~tulika/TRB6-13.pdf) [ ACM TRETS 7]
+2. [Graph Minor Approach for Application Mapping on CGRAs***] (https://www.comp.nus.edu.sg/~tulika/TRB6-13.pdf) [ ACM TRETS 7]
 
 3.  A Graph-Based Spatial Mapping Algorithm for a Coarse Grained Reconfigurable Architecture Template[Inf. in Ctrl., Auto.and Robo 2012] 
 
@@ -38,7 +38,7 @@
 
 1.  [Optimization by Simulated Annealing S. Kirkpatrick, C. D. Gelatt, and M. P. Vecchi](https://pdfs.semanticscholar.org/beb2/1ee4a3721484b5d2c7ad04e6babd8d67af1d.pdf)[1983]
 
-1. [DRESC: A Retargetable Compiler for Coarse-grained Reconfigurable Architectures](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=EF884B4BE279B4BF58B595B0736F3F40?doi=10.1.1.5.6251&rep=rep1&type=pdf) [FPL 2002]
+1. [DRESC: A Retargetable Compiler for Coarse-grained Reconfigurable Architectures***](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=EF884B4BE279B4BF58B595B0736F3F40?doi=10.1.1.5.6251&rep=rep1&type=pdf) [FPL 2002]
     - simulated annealing strategy is used to decide whether to accept the new placement or not
      - benchmarks: idct,fft, corr, latanal
 2. [SPR: An Architecture-adaptive CGRA Mapping Tool](https://www2.ee.washington.edu/faculty/hauck/publications/SPR.pdf) [ACM FPGA 2009]
@@ -49,8 +49,8 @@
   
 
 ### Modulo Scheduling
-1. [DRESC: A Retargetable Compiler for Coarse-grained Reconfigurable Architectures](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=EF884B4BE279B4BF58B595B0736F3F40?doi=10.1.1.5.6251&rep=rep1&type=pdf) [FPL 2002]
-2. [Edge-Centric Modulo Scheduling for Coarse-Grained Reconfigurable Architectures](https://courses.cs.washington.edu/courses/cse591n/09sp/Papers/Park2008ecm.pdf)[IEEE/ACM PACT 2008]
+1. [DRESC: A Retargetable Compiler for Coarse-grained Reconfigurable Architectures***](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=EF884B4BE279B4BF58B595B0736F3F40?doi=10.1.1.5.6251&rep=rep1&type=pdf) [FPL 2002]
+2. [Edge-Centric Modulo Scheduling for Coarse-Grained Reconfigurable Architectures***](https://courses.cs.washington.edu/courses/cse591n/09sp/Papers/Park2008ecm.pdf)[IEEE/ACM PACT 2008]
      - take an edge-centric approach to modulo scheduling that foc uses on the routing problem as its primary objective. With edge-centric modulo scheduling (EMS), placement is a by-product of the routingprocess, and the schedule is developed by routing each edge in thedataflow graph.
 
 ### Heuristic based
@@ -65,6 +65,10 @@
      - Mapping data elements in multidimensional array to new position in memory banks to realize multiple simultaneous accesses.
      - Find linear transformation vector(α) such that each data element in given pattern is assigned with a distinctive number(memory bank number)after the transformation.
 3. Efficient Memory Partitioning for Parallel Data Access via data reuse [FPGA'16]
+4.Memory access optimization in compilation for coarse-grained reconfigurable architectures, TODAES 2011
+5.Memory-Aware Loop Mapping on Coarse-Grained Reconfigurable Architectures, TVLSI 2016
+6. An Efficient Memory Organization for High-ILP Inner Modem Baseband SDR Processors, 2009
+7.Optimizing the data placement and transformation for multi-bank CGRA computing system, DATE 2018
 
 ## Reconfigurable Architectures
 
