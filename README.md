@@ -78,8 +78,20 @@
 1. The problem of mapping an application onto a CGRA to minimize the number of resources giving best performance has been shown to be NP-complete - C. O. Shields, Jr., “Area efficient layouts of binary trees in grids,” Ph.D.dissertation, Dept. Comput. Sci., Univ. Texas, Dallas, 2001.
 
 ## Building ccf
+1. Error
+In member function ‘void CGRA::calcRFConfig()’:
+../src/CGRA.cpp:113:55: error: ‘log’ was not declared in this scope
+           rfConfig[i*SizeY + j] = pow(2, ceil(log(diff)/log(2)));
+                                                       ^
+../src/CGRA.cpp:113:63: error: ‘ceil’ was not declared in this scope
+           rfConfig[i*SizeY + j] = pow(2, ceil(log(diff)/log(2)));
+                                                               ^
+../src/CGRA.cpp:113:64: error: ‘pow’ was not declared in this scope
+           rfConfig[i*SizeY + j] = pow(2, ceil(log(diff)/log(2)));
 
-1.Error:
+added #include <math.h> tp CGRA.cpp
+
+2.Error:
 build/ARM/proto/packet.pb.h:364:6: error: "PROTOBUF_INLINE_NOT_IN_HEADERS" is not defined [-Werror=undef]
  #if !PROTOBUF_INLINE_NOT_IN_HEADERS
 Fix:
