@@ -77,4 +77,13 @@
 
 1. The problem of mapping an application onto a CGRA to minimize the number of resources giving best performance has been shown to be NP-complete - C. O. Shields, Jr., “Area efficient layouts of binary trees in grids,” Ph.D.dissertation, Dept. Comput. Sci., Univ. Texas, Dallas, 2001.
 
+## Building ccf
+
+1.Error:
+build/ARM/proto/packet.pb.h:364:6: error: "PROTOBUF_INLINE_NOT_IN_HEADERS" is not defined [-Werror=undef]
+ #if !PROTOBUF_INLINE_NOT_IN_HEADERS
+Fix:
+https://www.mail-archive.com/gem5-dev@gem5.org/msg21326.html
+http://reviews.gem5.org/r/3779/diff/1/#1
+
 
