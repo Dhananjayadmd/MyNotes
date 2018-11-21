@@ -98,4 +98,15 @@ Fix:
 https://www.mail-archive.com/gem5-dev@gem5.org/msg21326.html
 http://reviews.gem5.org/r/3779/diff/1/#1
 
+## Benchmarks
+
+1. HLS
+
+Add directive PIPELINE to for loop
+give input and output arrays as arguments in function, dont use pointers
+Get power - Use HLS verilog sources + tcl script(HLS will generate tcl script to generate necessary IPs, run the tcl script in vivado tcl console to generate ips) to synthesize design in vivado.
+
+
+
+
 
