@@ -106,6 +106,26 @@ Add directive PIPELINE to for loop
 give input and output arrays as arguments in function, dont use pointers
 Get power - Use HLS verilog sources + tcl script(HLS will generate tcl script to generate necessary IPs, run the tcl script in vivado tcl console to generate ips) to synthesize design in vivado.
 
+2. Odroid A7/A15
+
+ssh odroid@10.42.0.32
+pw: odroid
+
+
+Add following .h file to C file 
+#include "../enable_arm_pmu-master/armpmu_lib.h"
+
+rdstc() function will return current cycle count
+
+build executable with -lm(to support math.h)
+
+go to enable_arm_pmu-master
+run sudo ./load_module script to enable necessary registers
+
+run the executable with 
+taskset -c 0/1/2/3 for arm cortex7
+taskset -c 4/5/6/7 for arm cortex15
+
 
 
 
