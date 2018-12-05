@@ -126,6 +126,7 @@ run the executable with
 taskset -c 0/1/2/3 for arm cortex7
 taskset -c 4/5/6/7 for arm cortex15
 
+Sources : sftp://dmd@gemini/home/dmd/workplace/CGRA/benchmarks/ISCA_2019_manupa/dmdworkspace.zip
 
 
 
