@@ -129,5 +129,8 @@ taskset -c 4/5/6/7 for arm cortex15
 Sources : sftp://dmd@gemini/home/dmd/workplace/CGRA/benchmarks/ISCA_2019_manupa/dmdworkspace.zip
 
 
+## Compiling lin-analyzer
 
+Patch to fix a compilation error
+https://sft.its.cern.ch/jira/browse/ROOT-7047
 
