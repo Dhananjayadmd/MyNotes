@@ -134,3 +134,10 @@ Sources : sftp://dmd@gemini/home/dmd/workplace/CGRA/benchmarks/ISCA_2019_manupa/
 Patch to fix a compilation error
 https://sft.its.cern.ch/jira/browse/ROOT-7047
 
+##  Unistall Xilinx SDx
+
+root@dmd-OptiPlex-9020:/opt/Xilinx/.xinstall/SDx_2017.2# ./xsetup -Uninstall
+
+
+
+
