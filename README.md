@@ -138,6 +138,10 @@ https://sft.its.cern.ch/jira/browse/ROOT-7047
 
 root@dmd-OptiPlex-9020:/opt/Xilinx/.xinstall/SDx_2017.2# ./xsetup -Uninstall
 
+## Check disk usage
+du -h -s /opt/Xilinx/
+
+
 
 
 
