@@ -152,6 +152,10 @@ Error:Compilation fails with “relocation R_X86_64_32 against .rodata.str1.8 ca
 Solution: Add -fPIC to EXTRA_FLAGS = -fPIC
 https://stackoverflow.com/questions/19364969/compilation-fails-with-relocation-r-x86-64-32-against-rodata-str1-8-can-not/19365454#19365454
 
+Erro: cannot find crti.o: No such file or directory
+collect2: ld returned 1 exit status
+Solution: export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH
+https://stackoverflow.com/questions/6329887/compiling-problems-cannot-find-crt1-o
  
 Error:  /usr/bin/ld: cannot find -lgcc_s 
 Solution : Some applications will accept a link :
