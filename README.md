@@ -142,6 +142,23 @@ root@dmd-OptiPlex-9020:/opt/Xilinx/.xinstall/SDx_2017.2# ./xsetup -Uninstall
 du -h -s /opt/Xilinx/
 
 
+## Compile Polylib on ubuntu 16.04
+
+ERror: static declaration of ‘linear_exception_debug_mode’ follows non-static declarationstatic int linear_exception_debug_mode = 0;
+Solution: Use gcc-3.4 and g++-3.4
+https://askubuntu.com/questions/923337/installing-an-older-gcc-version3-4-3-on-ubuntu-14-04-currently-4-8-installed
+
+Error:Compilation fails with “relocation R_X86_64_32 against .rodata.str1.8 can not be used when making a shared object
+Solution: Add -fPIC to EXTRA_FLAGS = -fPIC
+https://stackoverflow.com/questions/19364969/compilation-fails-with-relocation-r-x86-64-32-against-rodata-str1-8-can-not/19365454#19365454
+
+ 
+Error:  /usr/bin/ld: cannot find -lgcc_s 
+Solution : Some applications will accept a link :
+cd /lib/ && sudo ln -s x86_64-linux-gnu/libgcc_s.so.1
+https://www.linuxquestions.org/questions/linux-software-2/usr-bin-ld-cannot-find-lgcc_s-919330/
+https://askubuntu.com/questions/346377/cannot-find-lgcc-s
+
 
 
 
