@@ -144,6 +144,8 @@ du -h -s /opt/Xilinx/
 
 ## Compile Polylib on ubuntu 16.04
 
+http://www.irisa.fr/polylib/ 
+
 ERror: static declaration of ‘linear_exception_debug_mode’ follows non-static declarationstatic int linear_exception_debug_mode = 0;
 Solution: Use gcc-3.4 and g++-3.4
 https://askubuntu.com/questions/923337/installing-an-older-gcc-version3-4-3-on-ubuntu-14-04-currently-4-8-installed
@@ -163,6 +165,11 @@ cd /lib/ && sudo ln -s x86_64-linux-gnu/libgcc_s.so.1
 https://www.linuxquestions.org/questions/linux-software-2/usr-bin-ld-cannot-find-lgcc_s-919330/
 https://askubuntu.com/questions/346377/cannot-find-lgcc-s
 
+Dont use http://www.irisa.fr/polylib/ 
+Use 5.22 in http://icps.u-strasbg.fr/polylib/polylib_src/?C=M;O=D
+No errors !
+
+./configure –enable-gmpint-lib -with-libgmp
 
 
 
