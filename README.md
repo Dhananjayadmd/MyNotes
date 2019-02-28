@@ -171,5 +171,10 @@ No errors !
 
 ./configure –enable-gmpint-lib -with-libgmp
 
+## llvm build with clang
+
+Follow this guide
+http://clang.llvm.org/get_started.html
+
 
 
