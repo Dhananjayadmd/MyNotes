@@ -177,4 +177,10 @@ Follow this guide
 http://clang.llvm.org/get_started.html
 
 
+collect2: fatal error: ld terminated with signal 9 [Killed]
+
+https://www.gnu.org/software/make/manual/html_node/Parallel.html#Parallel 5.4
+
+make -j4 -l1
+
 
