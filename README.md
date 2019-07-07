@@ -186,14 +186,17 @@ make -j4 -l1
 
 ## DDR4 data rate test on ultrascale++
 
-Follow https://www.xilinx.com/support/documentation/boards_and_kits/zcu102/2017_3/xtp432-zcu102-mig-c-2017-3.pdf tutorial. Design files can be found in the link mentioned in https://forums.xilinx.com/t5/Memory-Interfaces/How-to-use-DRAM-of-ZCU102/td-p/809128 answer
+Follow MIG tutorial for correct vivado version 
+https://www.xilinx.com/support/documentation-navigation/see-all-versions.html?xlnxproducttypes=Boards%20and%20Kits&xlnxdocumentid=XTP432
+
+
+(Follow https://www.xilinx.com/support/documentation/boards_and_kits/zcu102/2017_3/xtp432-zcu102-mig-c-2017-3.pdf tutorial. Design files can be found in the link mentioned in https://forums.xilinx.com/t5/Memory-Interfaces/How-to-use-DRAM-of-ZCU102/td-p/809128 answer)
 
 
 Make sure SW6 switch is correctly configured. (All switches should be on for jtag boot mode)
 
 Use same vivado versions for implementation and for loading bit files into the board (hardware manager)
 
-https://www.xilinx.com/support/documentation-navigation/see-all-versions.html?xlnxproducttypes=Boards%20and%20Kits&xlnxdocumentid=XTP432
 
 
 
