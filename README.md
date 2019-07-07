@@ -184,3 +184,15 @@ https://www.gnu.org/software/make/manual/html_node/Parallel.html#Parallel 5.4
 make -j4 -l1
 
 
+## DDR4 data rate test on ultrascale++
+
+Follow https://www.xilinx.com/support/documentation/boards_and_kits/zcu102/2017_3/xtp432-zcu102-mig-c-2017-3.pdf tutorial
+
+
+Make sure SW6 switch is correctly configured. (All switches should be on for jtag boot mode)
+
+Use same vivado versions for implementation and for loading bit files into the board (hardware manager)
+
+
+
+
