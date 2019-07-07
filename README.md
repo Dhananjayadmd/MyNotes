@@ -193,6 +193,8 @@ Make sure SW6 switch is correctly configured. (All switches should be on for jta
 
 Use same vivado versions for implementation and for loading bit files into the board (hardware manager)
 
+https://www.xilinx.com/support/documentation-navigation/see-all-versions.html?xlnxproducttypes=Boards%20and%20Kits&xlnxdocumentid=XTP432
+
 
 
 
